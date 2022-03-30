@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AutoLayout" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="imA-St-zX9">
+                                <rect key="frame" x="112.5" y="52" width="189" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ZZk-kv-MeQ">
+                                <rect key="frame" x="179.5" y="197" width="55" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="76W-jI-gNs"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="55" id="M9b-KU-wKL"/>
+                                    <constraint firstAttribute="height" constant="55" id="mUl-Xe-Euz"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="55" id="tiE-dR-0mq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="EAX-EX-jwe">
+                                <rect key="frame" x="179.5" y="421" width="55" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Wzh-Vq-ddO"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="55" id="X0Z-ld-evE"/>
+                                    <constraint firstAttribute="width" constant="55" id="Xy3-bz-PhG"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="55" id="z6m-2h-Pnz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="O8d-QB-XGM">
+                                <rect key="frame" x="283" y="421" width="55" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="55" id="0RF-ec-esw"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="55" id="QgI-JX-xUa"/>
+                                    <constraint firstAttribute="height" constant="55" id="gXf-VD-LI4"/>
+                                    <constraint firstAttribute="width" constant="55" id="ska-GP-pPK"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ds9-KO-Qq7">
+                                <rect key="frame" x="76" y="421" width="55" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="16l-HR-37Q"/>
+                                    <constraint firstAttribute="height" constant="55" id="BOG-E9-qUd"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="55" id="JoE-C7-eTS"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="55" id="w6p-ba-mSd"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="nOV-JK-ptC">
+                                <rect key="frame" x="179.5" y="645" width="55" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="6wN-tc-WxY"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="55" id="dxv-8k-74p"/>
+                                    <constraint firstAttribute="width" constant="55" id="ffS-Av-uP1"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="55" id="vpU-Xo-7h3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZZk-kv-MeQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="CNr-es-qlK"/>
+                            <constraint firstItem="ZZk-kv-MeQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D7G-1g-OF1"/>
+                            <constraint firstItem="O8d-QB-XGM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.5" id="QEN-3u-qkZ"/>
+                            <constraint firstItem="EAX-EX-jwe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qk0-H7-lQy"/>
+                            <constraint firstItem="imA-St-zX9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RMz-1h-zfb"/>
+                            <constraint firstItem="ds9-KO-Qq7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Spq-WS-8wi"/>
+                            <constraint firstItem="ds9-KO-Qq7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="0.5" id="YO3-eX-HGC"/>
+                            <constraint firstItem="O8d-QB-XGM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cOL-tt-qyq"/>
+                            <constraint firstItem="ZZk-kv-MeQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hyF-xu-bgA"/>
+                            <constraint firstItem="imA-St-zX9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="lIP-Vo-LtX"/>
+                            <constraint firstItem="imA-St-zX9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="mRb-5v-tw5"/>
+                            <constraint firstItem="nOV-JK-ptC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.5" id="sfM-iH-kmu"/>
+                            <constraint firstItem="nOV-JK-ptC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="skw-xp-5kl"/>
+                            <constraint firstItem="EAX-EX-jwe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="y0M-sh-FRv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="92.753623188405811" y="82.366071428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="square.and.arrow.up.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
