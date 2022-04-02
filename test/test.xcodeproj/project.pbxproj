@@ -7,35 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE479EC027F6175100A5B4FC /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE479EBF27F6175000A5B4FC /* UIView+extension.swift */; };
-		DE479EC227F61CE500A5B4FC /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE479EC127F61CE500A5B4FC /* UIViewController+Extension.swift */; };
-		DECE16BB27F75B1D00D662EF /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECE16BA27F75B1D00D662EF /* UserInfo.swift */; };
-		DECFDDF327F1897100DA8920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECFDDF227F1897100DA8920 /* AppDelegate.swift */; };
-		DECFDDF527F1897100DA8920 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECFDDF427F1897100DA8920 /* SceneDelegate.swift */; };
-		DECFDDFA27F1897100DA8920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECFDDF827F1897100DA8920 /* Main.storyboard */; };
-		DECFDDFC27F1897100DA8920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECFDDFB27F1897100DA8920 /* Assets.xcassets */; };
-		DECFDDFF27F1897100DA8920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECFDDFD27F1897100DA8920 /* LaunchScreen.storyboard */; };
-		DECFDE4327F230CD00DA8920 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECFDE4227F230CD00DA8920 /* LoginViewController.swift */; };
-		DECFDE4527F2348D00DA8920 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECFDE4427F2348D00DA8920 /* RegisterViewController.swift */; };
+		DECE16CD27F8948E00D662EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECE16CC27F8948E00D662EF /* AppDelegate.swift */; };
+		DECE16CF27F8948E00D662EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECE16CE27F8948E00D662EF /* SceneDelegate.swift */; };
+		DECE16D127F8948E00D662EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECE16D027F8948E00D662EF /* ViewController.swift */; };
+		DECE16D427F8948E00D662EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECE16D227F8948E00D662EF /* Main.storyboard */; };
+		DECE16D627F8949000D662EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECE16D527F8949000D662EF /* Assets.xcassets */; };
+		DECE16D927F8949000D662EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECE16D727F8949000D662EF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE479EBF27F6175000A5B4FC /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
-		DE479EC127F61CE500A5B4FC /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
-		DECE16BA27F75B1D00D662EF /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
-		DECFDDEF27F1897100DA8920 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DECFDDF227F1897100DA8920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DECFDDF427F1897100DA8920 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DECFDDF927F1897100DA8920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DECFDDFB27F1897100DA8920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DECFDDFE27F1897100DA8920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DECFDE0027F1897100DA8920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DECFDE4227F230CD00DA8920 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		DECFDE4427F2348D00DA8920 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DECE16C927F8948E00D662EF /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECE16CC27F8948E00D662EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DECE16CE27F8948E00D662EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DECE16D027F8948E00D662EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DECE16D327F8948E00D662EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DECE16D527F8949000D662EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DECE16D827F8949000D662EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DECE16DA27F8949000D662EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DECFDDEC27F1897100DA8920 /* Frameworks */ = {
+		DECE16C627F8948E00D662EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,76 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DECFDDE627F1897100DA8920 = {
+		DECE16C027F8948E00D662EF = {
 			isa = PBXGroup;
 			children = (
-				DECFDDF127F1897100DA8920 /* Login */,
-				DECFDDF027F1897100DA8920 /* Products */,
+				DECE16CB27F8948E00D662EF /* test */,
+				DECE16CA27F8948E00D662EF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DECFDDF027F1897100DA8920 /* Products */ = {
+		DECE16CA27F8948E00D662EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DECFDDEF27F1897100DA8920 /* Login.app */,
+				DECE16C927F8948E00D662EF /* test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DECFDDF127F1897100DA8920 /* Login */ = {
+		DECE16CB27F8948E00D662EF /* test */ = {
 			isa = PBXGroup;
 			children = (
-				DECFDDF227F1897100DA8920 /* AppDelegate.swift */,
-				DECFDDF427F1897100DA8920 /* SceneDelegate.swift */,
-				DECFDDF827F1897100DA8920 /* Main.storyboard */,
-				DECFDE4427F2348D00DA8920 /* RegisterViewController.swift */,
-				DECE16BA27F75B1D00D662EF /* UserInfo.swift */,
-				DE479EBF27F6175000A5B4FC /* UIView+extension.swift */,
-				DE479EC127F61CE500A5B4FC /* UIViewController+Extension.swift */,
-				DECFDE4227F230CD00DA8920 /* LoginViewController.swift */,
-				DECFDDFB27F1897100DA8920 /* Assets.xcassets */,
-				DECFDDFD27F1897100DA8920 /* LaunchScreen.storyboard */,
-				DECFDE0027F1897100DA8920 /* Info.plist */,
+				DECE16CC27F8948E00D662EF /* AppDelegate.swift */,
+				DECE16CE27F8948E00D662EF /* SceneDelegate.swift */,
+				DECE16D027F8948E00D662EF /* ViewController.swift */,
+				DECE16D227F8948E00D662EF /* Main.storyboard */,
+				DECE16D527F8949000D662EF /* Assets.xcassets */,
+				DECE16D727F8949000D662EF /* LaunchScreen.storyboard */,
+				DECE16DA27F8949000D662EF /* Info.plist */,
 			);
-			path = Login;
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DECFDDEE27F1897100DA8920 /* Login */ = {
+		DECE16C827F8948E00D662EF /* test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DECFDE0327F1897100DA8920 /* Build configuration list for PBXNativeTarget "Login" */;
+			buildConfigurationList = DECE16DD27F8949000D662EF /* Build configuration list for PBXNativeTarget "test" */;
 			buildPhases = (
-				DECFDDEB27F1897100DA8920 /* Sources */,
-				DECFDDEC27F1897100DA8920 /* Frameworks */,
-				DECFDDED27F1897100DA8920 /* Resources */,
+				DECE16C527F8948E00D662EF /* Sources */,
+				DECE16C627F8948E00D662EF /* Frameworks */,
+				DECE16C727F8948E00D662EF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Login;
-			productName = Login;
-			productReference = DECFDDEF27F1897100DA8920 /* Login.app */;
+			name = test;
+			productName = test;
+			productReference = DECE16C927F8948E00D662EF /* test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DECFDDE727F1897100DA8920 /* Project object */ = {
+		DECE16C127F8948E00D662EF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					DECFDDEE27F1897100DA8920 = {
+					DECE16C827F8948E00D662EF = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
-			buildConfigurationList = DECFDDEA27F1897100DA8920 /* Build configuration list for PBXProject "Login" */;
+			buildConfigurationList = DECE16C427F8948E00D662EF /* Build configuration list for PBXProject "test" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,59 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = DECFDDE627F1897100DA8920;
-			productRefGroup = DECFDDF027F1897100DA8920 /* Products */;
+			mainGroup = DECE16C027F8948E00D662EF;
+			productRefGroup = DECE16CA27F8948E00D662EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DECFDDEE27F1897100DA8920 /* Login */,
+				DECE16C827F8948E00D662EF /* test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DECFDDED27F1897100DA8920 /* Resources */ = {
+		DECE16C727F8948E00D662EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DECFDDFF27F1897100DA8920 /* LaunchScreen.storyboard in Resources */,
-				DECFDDFC27F1897100DA8920 /* Assets.xcassets in Resources */,
-				DECFDDFA27F1897100DA8920 /* Main.storyboard in Resources */,
+				DECE16D927F8949000D662EF /* LaunchScreen.storyboard in Resources */,
+				DECE16D627F8949000D662EF /* Assets.xcassets in Resources */,
+				DECE16D427F8948E00D662EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DECFDDEB27F1897100DA8920 /* Sources */ = {
+		DECE16C527F8948E00D662EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE479EC227F61CE500A5B4FC /* UIViewController+Extension.swift in Sources */,
-				DE479EC027F6175100A5B4FC /* UIView+extension.swift in Sources */,
-				DECFDE4327F230CD00DA8920 /* LoginViewController.swift in Sources */,
-				DECFDDF327F1897100DA8920 /* AppDelegate.swift in Sources */,
-				DECFDDF527F1897100DA8920 /* SceneDelegate.swift in Sources */,
-				DECE16BB27F75B1D00D662EF /* UserInfo.swift in Sources */,
-				DECFDE4527F2348D00DA8920 /* RegisterViewController.swift in Sources */,
+				DECE16D127F8948E00D662EF /* ViewController.swift in Sources */,
+				DECE16CD27F8948E00D662EF /* AppDelegate.swift in Sources */,
+				DECE16CF27F8948E00D662EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DECFDDF827F1897100DA8920 /* Main.storyboard */ = {
+		DECE16D227F8948E00D662EF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DECFDDF927F1897100DA8920 /* Base */,
+				DECE16D327F8948E00D662EF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DECFDDFD27F1897100DA8920 /* LaunchScreen.storyboard */ = {
+		DECE16D727F8949000D662EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DECFDDFE27F1897100DA8920 /* Base */,
+				DECE16D827F8949000D662EF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DECFDE0127F1897100DA8920 /* Debug */ = {
+		DECE16DB27F8949000D662EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		DECFDE0227F1897100DA8920 /* Release */ = {
+		DECE16DC27F8949000D662EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,7 +280,7 @@
 			};
 			name = Release;
 		};
-		DECFDE0427F1897100DA8920 /* Debug */ = {
+		DECE16DE27F8949000D662EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -304,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Login/Info.plist;
+				INFOPLIST_FILE = test/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,15 +299,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ILWAT-com.github.Login";
+				PRODUCT_BUNDLE_IDENTIFIER = "ILWAT-com.github.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DECFDE0527F1897100DA8920 /* Release */ = {
+		DECE16DF27F8949000D662EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -331,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Login/Info.plist;
+				INFOPLIST_FILE = test/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -342,36 +326,36 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ILWAT-com.github.Login";
+				PRODUCT_BUNDLE_IDENTIFIER = "ILWAT-com.github.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DECFDDEA27F1897100DA8920 /* Build configuration list for PBXProject "Login" */ = {
+		DECE16C427F8948E00D662EF /* Build configuration list for PBXProject "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DECFDE0127F1897100DA8920 /* Debug */,
-				DECFDE0227F1897100DA8920 /* Release */,
+				DECE16DB27F8949000D662EF /* Debug */,
+				DECE16DC27F8949000D662EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DECFDE0327F1897100DA8920 /* Build configuration list for PBXNativeTarget "Login" */ = {
+		DECE16DD27F8949000D662EF /* Build configuration list for PBXNativeTarget "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DECFDE0427F1897100DA8920 /* Debug */,
-				DECFDE0527F1897100DA8920 /* Release */,
+				DECE16DE27F8949000D662EF /* Debug */,
+				DECE16DF27F8949000D662EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DECFDDE727F1897100DA8920 /* Project object */;
+	rootObject = DECE16C127F8948E00D662EF /* Project object */;
 }
