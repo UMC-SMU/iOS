@@ -18,6 +18,13 @@
 		108066A227F4ACA700EC66D3 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108066A127F4ACA700EC66D3 /* UIView+Extension.swift */; };
 		108066A627F4BE5900EC66D3 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108066A527F4BE5900EC66D3 /* UIViewController+Extension.swift */; };
 		108066A827F74AAC00EC66D3 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108066A727F74AAC00EC66D3 /* UserInfo.swift */; };
+		1080671627FD8D3400EC66D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080671527FD8D3400EC66D3 /* HomeViewController.swift */; };
+		1080673B27FEA23600EC66D3 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080673927FEA23600EC66D3 /* FeedTableViewCell.swift */; };
+		1080673C27FEA23600EC66D3 /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1080673A27FEA23600EC66D3 /* FeedTableViewCell.xib */; };
+		1080673F28084F1E00EC66D3 /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080673D28084F1E00EC66D3 /* StoryTableViewCell.swift */; };
+		1080674028084F1E00EC66D3 /* StoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1080673E28084F1E00EC66D3 /* StoryTableViewCell.xib */; };
+		108067432809B23E00EC66D3 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108067412809B23E00EC66D3 /* StoryCollectionViewCell.swift */; };
+		108067442809B23E00EC66D3 /* StoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 108067422809B23E00EC66D3 /* StoryCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +41,13 @@
 		108066A127F4ACA700EC66D3 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		108066A527F4BE5900EC66D3 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		108066A727F74AAC00EC66D3 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		1080671527FD8D3400EC66D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1080673927FEA23600EC66D3 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		1080673A27FEA23600EC66D3 /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
+		1080673D28084F1E00EC66D3 /* StoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
+		1080673E28084F1E00EC66D3 /* StoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryTableViewCell.xib; sourceTree = "<group>"; };
+		108067412809B23E00EC66D3 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		108067422809B23E00EC66D3 /* StoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,7 @@
 		100C82F127DC9FF200836857 /* Catstagram */ = {
 			isa = PBXGroup;
 			children = (
+				1080671427FD8D1100EC66D3 /* Home */,
 				100C82F227DC9FF200836857 /* AppDelegate.swift */,
 				100C82F427DC9FF200836857 /* SceneDelegate.swift */,
 				1080669927F1893C00EC66D3 /* Color+Extension.swift */,
@@ -80,6 +95,28 @@
 				100C830027DC9FF400836857 /* Info.plist */,
 			);
 			path = Catstagram;
+			sourceTree = "<group>";
+		};
+		1080671427FD8D1100EC66D3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1080673827FEA1B400EC66D3 /* Cell */,
+				1080671527FD8D3400EC66D3 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1080673827FEA1B400EC66D3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1080673927FEA23600EC66D3 /* FeedTableViewCell.swift */,
+				1080673A27FEA23600EC66D3 /* FeedTableViewCell.xib */,
+				1080673D28084F1E00EC66D3 /* StoryTableViewCell.swift */,
+				1080673E28084F1E00EC66D3 /* StoryTableViewCell.xib */,
+				108067412809B23E00EC66D3 /* StoryCollectionViewCell.swift */,
+				108067422809B23E00EC66D3 /* StoryCollectionViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +178,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				100C82FF27DC9FF400836857 /* LaunchScreen.storyboard in Resources */,
+				1080673C27FEA23600EC66D3 /* FeedTableViewCell.xib in Resources */,
 				100C82FC27DC9FF400836857 /* Assets.xcassets in Resources */,
+				1080674028084F1E00EC66D3 /* StoryTableViewCell.xib in Resources */,
+				108067442809B23E00EC66D3 /* StoryCollectionViewCell.xib in Resources */,
 				100C82FA27DC9FF200836857 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,11 +196,15 @@
 				108066A227F4ACA700EC66D3 /* UIView+Extension.swift in Sources */,
 				1080669C27F22CDA00EC66D3 /* LoginViewController.swift in Sources */,
 				1080669E27F34A5100EC66D3 /* RegisterViewController.swift in Sources */,
+				1080673F28084F1E00EC66D3 /* StoryTableViewCell.swift in Sources */,
+				108067432809B23E00EC66D3 /* StoryCollectionViewCell.swift in Sources */,
 				100C82F327DC9FF200836857 /* AppDelegate.swift in Sources */,
 				108066A827F74AAC00EC66D3 /* UserInfo.swift in Sources */,
+				1080671627FD8D3400EC66D3 /* HomeViewController.swift in Sources */,
 				108066A627F4BE5900EC66D3 /* UIViewController+Extension.swift in Sources */,
 				100C82F527DC9FF200836857 /* SceneDelegate.swift in Sources */,
 				1080669A27F1893D00EC66D3 /* Color+Extension.swift in Sources */,
+				1080673B27FEA23600EC66D3 /* FeedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
