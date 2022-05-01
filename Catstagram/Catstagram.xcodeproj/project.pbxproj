@@ -25,6 +25,11 @@
 		1080674028084F1E00EC66D3 /* StoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1080673E28084F1E00EC66D3 /* StoryTableViewCell.xib */; };
 		108067432809B23E00EC66D3 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108067412809B23E00EC66D3 /* StoryCollectionViewCell.swift */; };
 		108067442809B23E00EC66D3 /* StoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 108067422809B23E00EC66D3 /* StoryCollectionViewCell.xib */; };
+		10806747281C639800EC66D3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10806746281C639800EC66D3 /* ProfileViewController.swift */; };
+		1081429A281D482000761EA1 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10814298281D482000761EA1 /* ProfileCollectionViewCell.swift */; };
+		1081429B281D482000761EA1 /* ProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10814299281D482000761EA1 /* ProfileCollectionViewCell.xib */; };
+		108142A2281D65FF00761EA1 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108142A0281D65FF00761EA1 /* PostCollectionViewCell.swift */; };
+		108142A3281D65FF00761EA1 /* PostCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 108142A1281D65FF00761EA1 /* PostCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +53,11 @@
 		1080673E28084F1E00EC66D3 /* StoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryTableViewCell.xib; sourceTree = "<group>"; };
 		108067412809B23E00EC66D3 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		108067422809B23E00EC66D3 /* StoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		10806746281C639800EC66D3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		10814298281D482000761EA1 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		10814299281D482000761EA1 /* ProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCollectionViewCell.xib; sourceTree = "<group>"; };
+		108142A0281D65FF00761EA1 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
+		108142A1281D65FF00761EA1 /* PostCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,7 @@
 			children = (
 				1080671427FD8D1100EC66D3 /* Home */,
 				100C82F227DC9FF200836857 /* AppDelegate.swift */,
+				10806745281C627000EC66D3 /* Profile */,
 				100C82F427DC9FF200836857 /* SceneDelegate.swift */,
 				1080669927F1893C00EC66D3 /* Color+Extension.swift */,
 				108066A127F4ACA700EC66D3 /* UIView+Extension.swift */,
@@ -117,6 +128,42 @@
 				108067422809B23E00EC66D3 /* StoryCollectionViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		10806745281C627000EC66D3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				10814297281D47EB00761EA1 /* Cell */,
+				10806746281C639800EC66D3 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		10814297281D47EB00761EA1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1081429D281D65B300761EA1 /* PostCell */,
+				1081429C281D659500761EA1 /* ProfileCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1081429C281D659500761EA1 /* ProfileCell */ = {
+			isa = PBXGroup;
+			children = (
+				10814298281D482000761EA1 /* ProfileCollectionViewCell.swift */,
+				10814299281D482000761EA1 /* ProfileCollectionViewCell.xib */,
+			);
+			path = ProfileCell;
+			sourceTree = "<group>";
+		};
+		1081429D281D65B300761EA1 /* PostCell */ = {
+			isa = PBXGroup;
+			children = (
+				108142A0281D65FF00761EA1 /* PostCollectionViewCell.swift */,
+				108142A1281D65FF00761EA1 /* PostCollectionViewCell.xib */,
+			);
+			path = PostCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,9 +224,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108142A3281D65FF00761EA1 /* PostCollectionViewCell.xib in Resources */,
 				100C82FF27DC9FF400836857 /* LaunchScreen.storyboard in Resources */,
 				1080673C27FEA23600EC66D3 /* FeedTableViewCell.xib in Resources */,
 				100C82FC27DC9FF400836857 /* Assets.xcassets in Resources */,
+				1081429B281D482000761EA1 /* ProfileCollectionViewCell.xib in Resources */,
 				1080674028084F1E00EC66D3 /* StoryTableViewCell.xib in Resources */,
 				108067442809B23E00EC66D3 /* StoryCollectionViewCell.xib in Resources */,
 				100C82FA27DC9FF200836857 /* Main.storyboard in Resources */,
@@ -198,11 +247,14 @@
 				1080669E27F34A5100EC66D3 /* RegisterViewController.swift in Sources */,
 				1080673F28084F1E00EC66D3 /* StoryTableViewCell.swift in Sources */,
 				108067432809B23E00EC66D3 /* StoryCollectionViewCell.swift in Sources */,
+				108142A2281D65FF00761EA1 /* PostCollectionViewCell.swift in Sources */,
 				100C82F327DC9FF200836857 /* AppDelegate.swift in Sources */,
 				108066A827F74AAC00EC66D3 /* UserInfo.swift in Sources */,
 				1080671627FD8D3400EC66D3 /* HomeViewController.swift in Sources */,
 				108066A627F4BE5900EC66D3 /* UIViewController+Extension.swift in Sources */,
 				100C82F527DC9FF200836857 /* SceneDelegate.swift in Sources */,
+				1081429A281D482000761EA1 /* ProfileCollectionViewCell.swift in Sources */,
+				10806747281C639800EC66D3 /* ProfileViewController.swift in Sources */,
 				1080669A27F1893D00EC66D3 /* Color+Extension.swift in Sources */,
 				1080673B27FEA23600EC66D3 /* FeedTableViewCell.swift in Sources */,
 			);
