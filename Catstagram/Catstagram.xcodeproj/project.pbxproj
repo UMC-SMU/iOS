@@ -30,9 +30,11 @@
 		1081429B281D482000761EA1 /* ProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10814299281D482000761EA1 /* ProfileCollectionViewCell.xib */; };
 		108142A2281D65FF00761EA1 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108142A0281D65FF00761EA1 /* PostCollectionViewCell.swift */; };
 		108142A3281D65FF00761EA1 /* PostCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 108142A1281D65FF00761EA1 /* PostCollectionViewCell.xib */; };
+		7B2530EFBBDDDE6F67DCF76A /* Pods_Catstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D81F90DED89482807CB7D00 /* Pods_Catstagram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D81F90DED89482807CB7D00 /* Pods_Catstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		100C82EF27DC9FF200836857 /* Catstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		100C82F227DC9FF200836857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		100C82F427DC9FF200836857 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,8 @@
 		10814299281D482000761EA1 /* ProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCollectionViewCell.xib; sourceTree = "<group>"; };
 		108142A0281D65FF00761EA1 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
 		108142A1281D65FF00761EA1 /* PostCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCollectionViewCell.xib; sourceTree = "<group>"; };
+		1A336E1AAB75FE786813780F /* Pods-Catstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catstagram.debug.xcconfig"; path = "Target Support Files/Pods-Catstagram/Pods-Catstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		FB0BBD227F31426342A49210 /* Pods-Catstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catstagram.release.xcconfig"; path = "Target Support Files/Pods-Catstagram/Pods-Catstagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B2530EFBBDDDE6F67DCF76A /* Pods_Catstagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,8 @@
 			children = (
 				100C82F127DC9FF200836857 /* Catstagram */,
 				100C82F027DC9FF200836857 /* Products */,
+				323AFDC129820EE54A3DE086 /* Pods */,
+				F27112DB488A52318CD16947 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +173,24 @@
 			path = PostCell;
 			sourceTree = "<group>";
 		};
+		323AFDC129820EE54A3DE086 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A336E1AAB75FE786813780F /* Pods-Catstagram.debug.xcconfig */,
+				FB0BBD227F31426342A49210 /* Pods-Catstagram.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F27112DB488A52318CD16947 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D81F90DED89482807CB7D00 /* Pods_Catstagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 100C830327DC9FF400836857 /* Build configuration list for PBXNativeTarget "Catstagram" */;
 			buildPhases = (
+				833F37E08343887ABF6185C9 /* [CP] Check Pods Manifest.lock */,
 				100C82EB27DC9FF200836857 /* Sources */,
 				100C82EC27DC9FF200836857 /* Frameworks */,
 				100C82ED27DC9FF200836857 /* Resources */,
@@ -236,6 +262,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		833F37E08343887ABF6185C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Catstagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		100C82EB27DC9FF200836857 /* Sources */ = {
@@ -400,6 +451,7 @@
 		};
 		100C830427DC9FF400836857 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A336E1AAB75FE786813780F /* Pods-Catstagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -428,6 +480,7 @@
 		};
 		100C830527DC9FF400836857 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB0BBD227F31426342A49210 /* Pods-Catstagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
