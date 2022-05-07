@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProfileCollectionViewCell" id="gTV-IL-0wX" customClass="ProfileCollectionViewCell" customModule="Catstagram" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="159"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="395" height="159"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bdo-jv-SPg">
+                        <rect key="frame" x="10" y="10" width="88" height="88"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="88" id="smW-lS-92x"/>
+                            <constraint firstAttribute="height" constant="88" id="zo9-zP-nG6"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plus.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="5wi-nu-ngJ">
+                        <rect key="frame" x="74" y="74.5" width="24" height="23"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="WYv-Yp-iAK"/>
+                            <constraint firstAttribute="height" constant="24" id="X3X-yO-yCI"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E02-Pn-9MV">
+                        <rect key="frame" x="354" y="118" width="31" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="geE-rB-1p3"/>
+                            <constraint firstAttribute="width" constant="31" id="jtk-d0-2wJ"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="9" minY="7" maxX="8" maxY="10"/>
+                        <state key="normal" image="ic_my_invite"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HEa-Pc-A44">
+                        <rect key="frame" x="10" y="118" width="336" height="31"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="프로필 편집">
+                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="12"/>
+                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </buttonConfiguration>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4N-2R-zlT">
+                        <rect key="frame" x="22" y="98" width="64.5" height="16"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="I2y-OC-dbw">
+                        <rect key="frame" x="174" y="33" width="194.5" height="39"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="oye-cT-DXI">
+                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="39"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W4L-i9-RML">
+                                        <rect key="frame" x="0.0" y="0.0" width="31.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="게시글" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzD-rA-411">
+                                        <rect key="frame" x="0.0" y="24.5" width="31.5" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Qvh-2G-cpe">
+                                <rect key="frame" x="81.5" y="0.0" width="31.5" height="39"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHP-ly-s0S">
+                                        <rect key="frame" x="0.0" y="0.0" width="31.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="팔로워" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="486-PU-loU">
+                                        <rect key="frame" x="0.0" y="24.5" width="31.5" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="REx-xd-BkM">
+                                <rect key="frame" x="163" y="0.0" width="31.5" height="39"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PSZ-LC-F9r">
+                                        <rect key="frame" x="0.0" y="0.0" width="31.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="팔로잉" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A1V-8e-fwn">
+                                        <rect key="frame" x="0.0" y="24.5" width="31.5" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="R4N-2R-zlT" firstAttribute="top" secondItem="Bdo-jv-SPg" secondAttribute="bottom" id="5Z0-oe-53c"/>
+                <constraint firstItem="HEa-Pc-A44" firstAttribute="height" secondItem="E02-Pn-9MV" secondAttribute="height" id="6Em-pO-aMW"/>
+                <constraint firstItem="R4N-2R-zlT" firstAttribute="centerX" secondItem="Bdo-jv-SPg" secondAttribute="centerX" id="FTV-0o-iCX"/>
+                <constraint firstAttribute="bottom" secondItem="E02-Pn-9MV" secondAttribute="bottom" constant="10" id="IAo-w1-5Hj"/>
+                <constraint firstItem="I2y-OC-dbw" firstAttribute="leading" relation="lessThanOrEqual" secondItem="Bdo-jv-SPg" secondAttribute="trailing" constant="140" id="KZ9-sO-D5k"/>
+                <constraint firstItem="Bdo-jv-SPg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="RDY-hK-7dy"/>
+                <constraint firstItem="Bdo-jv-SPg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="SAl-9g-IPU"/>
+                <constraint firstItem="5wi-nu-ngJ" firstAttribute="trailing" secondItem="Bdo-jv-SPg" secondAttribute="trailing" id="ahC-O5-XYu"/>
+                <constraint firstItem="I2y-OC-dbw" firstAttribute="centerY" secondItem="Bdo-jv-SPg" secondAttribute="centerY" constant="-4.5" id="cuu-V6-wPO"/>
+                <constraint firstItem="I2y-OC-dbw" firstAttribute="trailing" secondItem="HEa-Pc-A44" secondAttribute="trailing" id="eVQ-md-oxO"/>
+                <constraint firstItem="HEa-Pc-A44" firstAttribute="centerY" secondItem="E02-Pn-9MV" secondAttribute="centerY" id="huW-Fp-Tl4"/>
+                <constraint firstItem="E02-Pn-9MV" firstAttribute="leading" secondItem="HEa-Pc-A44" secondAttribute="trailing" constant="8" symbolic="YES" id="iNo-xQ-dk2"/>
+                <constraint firstItem="HEa-Pc-A44" firstAttribute="leading" secondItem="Bdo-jv-SPg" secondAttribute="leading" id="p87-mN-rcX"/>
+                <constraint firstItem="5wi-nu-ngJ" firstAttribute="bottom" secondItem="Bdo-jv-SPg" secondAttribute="bottom" id="rsK-xU-5fg"/>
+                <constraint firstAttribute="trailing" secondItem="E02-Pn-9MV" secondAttribute="trailing" constant="10" id="vZx-zQ-O8q"/>
+            </constraints>
+            <size key="customSize" width="304" height="73"/>
+            <connections>
+                <outlet property="addFriendButton" destination="E02-Pn-9MV" id="z37-FQ-nrm"/>
+                <outlet property="addProfileImageView" destination="5wi-nu-ngJ" id="SzC-zg-8By"/>
+                <outlet property="editButton" destination="HEa-Pc-A44" id="XRg-Yz-ZuY"/>
+                <outlet property="followerCountLabel" destination="jHP-ly-s0S" id="bV6-fe-UUQ"/>
+                <outlet property="followingCountLabel" destination="PSZ-LC-F9r" id="pXK-s0-33N"/>
+                <outlet property="postingCountLabel" destination="W4L-i9-RML" id="DP6-ss-CVv"/>
+                <outlet property="profileImageView" destination="Bdo-jv-SPg" id="nKa-lv-QrO"/>
+            </connections>
+            <point key="canvasLocation" x="664.49275362318849" y="85.379464285714278"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_my_invite" width="512" height="512"/>
+        <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
