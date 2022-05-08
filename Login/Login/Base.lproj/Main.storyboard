@@ -416,8 +416,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrow.backward" catalog="system" width="128" height="98"/>
-        <image name="francsign.square.fill" catalog="system" width="128" height="114"/>
+        <image name="arrow.backward" catalog="system" width="32" height="32"/>
+        <image name="francsign.square.fill" catalog="system" width="32" height="32"/>
         <image name="ic_catstagram_logo" width="476" height="96"/>
         <namedColor name="disabledButtonColor">
             <color red="0.77647058823529413" green="0.87058823529411766" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
