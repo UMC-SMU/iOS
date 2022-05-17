@@ -257,6 +257,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="ic_home_upload"/>
+                                        <connections>
+                                            <action selector="buttonGoAlbum:" destination="R8y-0I-RBp" eventType="touchUpInside" id="6kg-Dd-32h"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -291,7 +294,7 @@
                             <constraint firstItem="7I8-oT-uIK" firstAttribute="top" secondItem="5Rs-XJ-5eg" secondAttribute="bottom" id="rar-cU-C28"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="aw8-fR-YFZ"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="aw8-fR-YFZ"/>
                     <connections>
                         <outlet property="tableView" destination="7I8-oT-uIK" id="T96-tk-C7Q"/>
                     </connections>
@@ -308,6 +311,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="R8y-0I-RBp" kind="relationship" relationship="viewControllers" id="7Fb-mY-e0D"/>
@@ -516,7 +520,7 @@
         <scene sceneID="cUo-YJ-j1V">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nea-UF-Esg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="qhs-7M-PDM"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.circle" catalog="system" id="qhs-7M-PDM"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UAs-aV-Q3h">
                         <rect key="frame" x="0.0" y="44" width="390" height="44"/>
@@ -535,11 +539,13 @@
     <resources>
         <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <image name="f.square.fill" catalog="system" width="128" height="114"/>
+        <image name="house" catalog="system" width="128" height="106"/>
         <image name="ic_catstagram_logo" width="476" height="96"/>
         <image name="ic_home_heart" width="512" height="512"/>
         <image name="ic_home_send" width="512" height="512"/>
         <image name="ic_home_upload" width="512" height="512"/>
         <image name="line.3.horizontal" catalog="system" width="128" height="64"/>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
         <image name="plus.app" catalog="system" width="128" height="114"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
