@@ -17,6 +17,5 @@ class FeedDataManager{
                 print(error.localizedDescription)
             }
         }
-        
     }
 }
