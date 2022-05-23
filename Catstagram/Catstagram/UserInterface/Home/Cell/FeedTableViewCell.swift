@@ -39,6 +39,7 @@ class FeedTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        self.selectionStyle = .none // <-- 클릭 시, 스타일을 정하는 부분, (회색으로 변하는 부분 제거)
         imageViewUserProfile.layer.cornerRadius = 12.5
         imageViewUserProfile.clipsToBounds = true // true -> subview가 view의 경계를 넘어갈 시 잘림 & false -> 경계를 넘어가도 잘리지 않게 됨
         imageViewMyProfile.layer.cornerRadius = 12.5

@@ -126,16 +126,10 @@
 			isa = PBXGroup;
 			children = (
 				DE97E569283032E3002588E7 /* App */,
+				2596B263283BB6430068707C /* Model */,
 				DE97E56C28311815002588E7 /* UserInterface */,
-				1080669927F1893C00EC66D3 /* Color+Extension.swift */,
-				108066A127F4ACA700EC66D3 /* UIView+Extension.swift */,
-				108066A527F4BE5900EC66D3 /* UIViewController+Extension.swift */,
-				100C82F827DC9FF200836857 /* Main.storyboard */,
-				DEBF770A2838048F00B8C8BF /* ReelsViewController.swift */,
-				DE97C29F28396066000052A1 /* VideoPlayerView.swift */,
-				DE97C29D2838B469000052A1 /* ReelsCell.swift */,
-				100C82FD27DC9FF400836857 /* LaunchScreen.storyboard */,
-				108066A727F74AAC00EC66D3 /* UserInfo.swift */,
+				2596B260283BB6100068707C /* Extensions */,
+				2596B261283BB6210068707C /* Storyboard */,
 				DE97C29928382060000052A1 /* dummyVideo.mp4 */,
 				DE97C29A28382060000052A1 /* dummyVideo2.mp4 */,
 				100C82FB27DC9FF400836857 /* Assets.xcassets */,
@@ -205,6 +199,43 @@
 			path = PostCell;
 			sourceTree = "<group>";
 		};
+		2596B260283BB6100068707C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1080669927F1893C00EC66D3 /* Color+Extension.swift */,
+				108066A127F4ACA700EC66D3 /* UIView+Extension.swift */,
+				108066A527F4BE5900EC66D3 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2596B261283BB6210068707C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				100C82F827DC9FF200836857 /* Main.storyboard */,
+				100C82FD27DC9FF400836857 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2596B262283BB62D0068707C /* Reels */ = {
+			isa = PBXGroup;
+			children = (
+				DEBF770A2838048F00B8C8BF /* ReelsViewController.swift */,
+				DE97C29F28396066000052A1 /* VideoPlayerView.swift */,
+				DE97C29D2838B469000052A1 /* ReelsCell.swift */,
+			);
+			path = Reels;
+			sourceTree = "<group>";
+		};
+		2596B263283BB6430068707C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				108066A727F74AAC00EC66D3 /* UserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		323AFDC129820EE54A3DE086 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,9 +286,10 @@
 		DE97E56C28311815002588E7 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				1080671427FD8D1100EC66D3 /* Home */,
 				10806745281C627000EC66D3 /* Profile */,
 				DE97E56A28303313002588E7 /* Authenticaction */,
-				1080671427FD8D1100EC66D3 /* Home */,
+				2596B262283BB62D0068707C /* Reels */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
