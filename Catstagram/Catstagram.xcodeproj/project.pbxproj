@@ -37,6 +37,7 @@
 		DE97C29B28382060000052A1 /* dummyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DE97C29928382060000052A1 /* dummyVideo.mp4 */; };
 		DE97C29C28382060000052A1 /* dummyVideo2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DE97C29A28382060000052A1 /* dummyVideo2.mp4 */; };
 		DE97C29E2838B469000052A1 /* ReelsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE97C29D2838B469000052A1 /* ReelsCell.swift */; };
+		DE97C2A028396066000052A1 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE97C29F28396066000052A1 /* VideoPlayerView.swift */; };
 		DE97E5642830241E002588E7 /* FeedUploadInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE97E5632830241E002588E7 /* FeedUploadInput.swift */; };
 		DE97E56628302498002588E7 /* FeedUploadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE97E56528302498002588E7 /* FeedUploadModel.swift */; };
 		DE97E56828302C55002588E7 /* FeedUploadDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE97E56728302C55002588E7 /* FeedUploadDataManager.swift */; };
@@ -44,8 +45,6 @@
 		DEBF77032835459A00B8C8BF /* UserFeedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF77022835459A00B8C8BF /* UserFeedDataManager.swift */; };
 		DEBF7707283626DE00B8C8BF /* DeleteUserFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF7706283626DE00B8C8BF /* DeleteUserFeed.swift */; };
 		DEBF770B2838048F00B8C8BF /* ReelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF770A2838048F00B8C8BF /* ReelsViewController.swift */; };
-		DEBF770E2838057C00B8C8BF /* ReelsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF770C2838057C00B8C8BF /* ReelsCollectionViewCell.swift */; };
-		DEBF770F2838057C00B8C8BF /* ReelsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEBF770D2838057C00B8C8BF /* ReelsCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +81,7 @@
 		DE97C29928382060000052A1 /* dummyVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dummyVideo.mp4; sourceTree = "<group>"; };
 		DE97C29A28382060000052A1 /* dummyVideo2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dummyVideo2.mp4; sourceTree = "<group>"; };
 		DE97C29D2838B469000052A1 /* ReelsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsCell.swift; sourceTree = "<group>"; };
+		DE97C29F28396066000052A1 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		DE97E5632830241E002588E7 /* FeedUploadInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUploadInput.swift; sourceTree = "<group>"; };
 		DE97E56528302498002588E7 /* FeedUploadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUploadModel.swift; sourceTree = "<group>"; };
 		DE97E56728302C55002588E7 /* FeedUploadDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUploadDataManager.swift; sourceTree = "<group>"; };
@@ -89,8 +89,6 @@
 		DEBF77022835459A00B8C8BF /* UserFeedDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedDataManager.swift; sourceTree = "<group>"; };
 		DEBF7706283626DE00B8C8BF /* DeleteUserFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteUserFeed.swift; sourceTree = "<group>"; };
 		DEBF770A2838048F00B8C8BF /* ReelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsViewController.swift; sourceTree = "<group>"; };
-		DEBF770C2838057C00B8C8BF /* ReelsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsCollectionViewCell.swift; sourceTree = "<group>"; };
-		DEBF770D2838057C00B8C8BF /* ReelsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReelsCollectionViewCell.xib; sourceTree = "<group>"; };
 		FB0BBD227F31426342A49210 /* Pods-Catstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catstagram.release.xcconfig"; path = "Target Support Files/Pods-Catstagram/Pods-Catstagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,9 +131,8 @@
 				108066A127F4ACA700EC66D3 /* UIView+Extension.swift */,
 				108066A527F4BE5900EC66D3 /* UIViewController+Extension.swift */,
 				100C82F827DC9FF200836857 /* Main.storyboard */,
-				DEBF770C2838057C00B8C8BF /* ReelsCollectionViewCell.swift */,
-				DEBF770D2838057C00B8C8BF /* ReelsCollectionViewCell.xib */,
 				DEBF770A2838048F00B8C8BF /* ReelsViewController.swift */,
+				DE97C29F28396066000052A1 /* VideoPlayerView.swift */,
 				DE97C29D2838B469000052A1 /* ReelsCell.swift */,
 				100C82FD27DC9FF400836857 /* LaunchScreen.storyboard */,
 				108066A727F74AAC00EC66D3 /* UserInfo.swift */,
@@ -367,7 +364,6 @@
 				1080674028084F1E00EC66D3 /* StoryTableViewCell.xib in Resources */,
 				DE97C29C28382060000052A1 /* dummyVideo2.mp4 in Resources */,
 				108067442809B23E00EC66D3 /* StoryCollectionViewCell.xib in Resources */,
-				DEBF770F2838057C00B8C8BF /* ReelsCollectionViewCell.xib in Resources */,
 				100C82FA27DC9FF200836857 /* Main.storyboard in Resources */,
 				DE97C29B28382060000052A1 /* dummyVideo.mp4 in Resources */,
 			);
@@ -428,7 +424,6 @@
 				DEBF77032835459A00B8C8BF /* UserFeedDataManager.swift in Sources */,
 				DE69CF33282ADE4A00A61AEF /* FeedModel.swift in Sources */,
 				1080669E27F34A5100EC66D3 /* RegisterViewController.swift in Sources */,
-				DEBF770E2838057C00B8C8BF /* ReelsCollectionViewCell.swift in Sources */,
 				DE97E5642830241E002588E7 /* FeedUploadInput.swift in Sources */,
 				DE97E56F28341C3E002588E7 /* UserFeedModel.swift in Sources */,
 				1080673F28084F1E00EC66D3 /* StoryTableViewCell.swift in Sources */,
@@ -449,6 +444,7 @@
 				DEBF7707283626DE00B8C8BF /* DeleteUserFeed.swift in Sources */,
 				1080669A27F1893D00EC66D3 /* Color+Extension.swift in Sources */,
 				1080673B27FEA23600EC66D3 /* FeedTableViewCell.swift in Sources */,
+				DE97C2A028396066000052A1 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

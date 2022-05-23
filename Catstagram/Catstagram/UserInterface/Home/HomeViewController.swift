@@ -8,7 +8,7 @@
 import UIKit
 import Kingfisher //kingfisher api 사용
 
-class HomeViewController: UIViewController, UIImagePickerControllerDelegate {
+class HomeViewController: UIViewController {
      
     @IBOutlet weak var tableView: UITableView!
     var arrayCat : [FeedModel] = []
@@ -34,11 +34,16 @@ class HomeViewController: UIViewController, UIImagePickerControllerDelegate {
     //게시물 업로드 버튼을 클릭했을시의 액션
 
 
-    @IBAction func buttonGoAlbum(_ sender: UIButton) {
-        //print("성공")
+    @IBAction func test(_ sender: Any) {
         self.imagePickerViewController.sourceType = .photoLibrary //image를 앨범에서 선택하는 코드
         self.present(imagePickerViewController, animated: true, completion: nil) //imagepickerview 화면을 띄우는 코드
     }
+    
+    /*@IBAction func buttonGoAlbum(_ sender:) {
+        //print("성공")
+        self.imagePickerViewController.sourceType = .photoLibrary //image를 앨범에서 선택하는 코드
+        self.present(imagePickerViewController, animated: true, completion: nil) //imagepickerview 화면을 띄우는 코드
+    }*/
     
     
 }
@@ -91,7 +96,7 @@ extension HomeViewController : UICollectionViewDelegate, UICollectionViewDataSou
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-//콜렉션뷰 셀 테스트 코드
+//        콜렉션뷰 셀 테스트 코드
 //        let cell = UICollectionViewCell()
 //        cell.backgroundColor = .black
 //        return cell
@@ -116,10 +121,10 @@ extension HomeViewController{
     }
 }
 
-extension HomeViewController : UIPickerViewDelegate , UINavigationControllerDelegate {
+extension HomeViewController : UIImagePickerControllerDelegate , UINavigationControllerDelegate {
     //이미지 선택이 끝났을때 실행하는 동작
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        if let image =  info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
+        if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
             let imageString = "https://firebasestorage.googleapis.com/v0/b/catstargram-d7fbf.appspot.com/o/Cat?alt=media&token=a7e69494-443f-425d-a86a-59be45d75a43"
             let input = FeedUploadInput(content: "저희 상이입니다. 귀엽지 않나요?", postImgsUrl: [imageString])
             FeedUploadDataManager().posts(self, input)
