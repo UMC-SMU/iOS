@@ -34,16 +34,13 @@ class HomeViewController: UIViewController {
     //게시물 업로드 버튼을 클릭했을시의 액션
 
 
-    @IBAction func test(_ sender: Any) {
+    
+    @IBAction func buttonGoAlbum(_ sender: UIButton) {
+        //print("성공")
         self.imagePickerViewController.sourceType = .photoLibrary //image를 앨범에서 선택하는 코드
         self.present(imagePickerViewController, animated: true, completion: nil) //imagepickerview 화면을 띄우는 코드
     }
     
-    /*@IBAction func buttonGoAlbum(_ sender:) {
-        //print("성공")
-        self.imagePickerViewController.sourceType = .photoLibrary //image를 앨범에서 선택하는 코드
-        self.present(imagePickerViewController, animated: true, completion: nil) //imagepickerview 화면을 띄우는 코드
-    }*/
     
     
 }

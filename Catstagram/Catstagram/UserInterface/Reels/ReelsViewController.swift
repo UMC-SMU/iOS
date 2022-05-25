@@ -20,7 +20,7 @@ class ReelsViewController: UIViewController{
     //MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        //setupCollectionView()
+        setupCollectionView()
         
         // Do any additional setup after loading the view.
     }
@@ -68,6 +68,7 @@ extension ReelsViewController : UICollectionViewDelegate,UICollectionViewDataSou
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ReelsCell.identifier, for: indexPath)as? ReelsCell else { return UICollectionViewCell() }
+        cell.setupURL(videoURLStrArr.randomElement()!)
         return cell
     }
     
@@ -81,8 +82,10 @@ extension ReelsViewController : UICollectionViewDelegate,UICollectionViewDataSou
 
 //MARK: UICollectionViewFlowLayout
 extension ReelsViewController : UICollectionViewDelegateFlowLayout{
-    private func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout:UICollectionViewFlowLayout, sizeForItemAt indexPath: IndexPath) ->CGSize {
-        return CGSize(width: collectionView.frame.width, height: collectionView.frame.height)
+    private func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewFlowLayout, sizeForItemAt indexPath: IndexPath) ->CGSize {
+        return CGSize(
+            width: collectionView.frame.width,
+            height: collectionView.frame.height)
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         1
