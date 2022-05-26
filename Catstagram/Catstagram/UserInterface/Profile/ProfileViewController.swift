@@ -32,7 +32,7 @@ class ProfileViewController: UIViewController, UIGestureRecognizerDelegate {
         let position = gestureRecognizer.location(in: profileCollectionView)
         
         if let indexPath = profileCollectionView?.indexPathForItem(at: position) {
-            print("DEBUG: ", indexPath.item) // 메소드 구현 후 위치값을 컬렉션뷰에 이미 구성된 메소드를 통해 획득해서 프린트
+            //print("DEBUG: ", indexPath.item) // 메소드 구현 후 위치값을 컬렉션뷰에 이미 구성된 메소드를 통해 획득해서 프린트
             
             guard let userPosts = self.userPosts else { return }
             let cellData = userPosts[indexPath.item] // indexPath.item : 로컬에서 알고 있는 정보

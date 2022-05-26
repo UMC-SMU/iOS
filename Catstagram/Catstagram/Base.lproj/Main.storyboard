@@ -212,7 +212,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Zv-N4-iH8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2340" y="1519.9052132701422"/>
+            <point key="canvasLocation" x="2651" y="1520"/>
         </scene>
         <!--Home-->
         <scene sceneID="OtI-Je-86i">
@@ -301,7 +301,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gkw-0Z-rF1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="416.92307692307691" y="1519.9052132701422"/>
+            <point key="canvasLocation" x="92" y="1520"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="wTs-aZ-HVG">
@@ -315,6 +315,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="R8y-0I-RBp" kind="relationship" relationship="viewControllers" id="7Fb-mY-e0D"/>
+                        <segue destination="YYo-G6-ysh" kind="relationship" relationship="viewControllers" id="Xgd-G7-laj"/>
                         <segue destination="nea-UF-Esg" kind="relationship" relationship="viewControllers" id="fvf-DK-43g"/>
                     </connections>
                 </tabBarController>
@@ -533,7 +534,49 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hwC-rk-GJr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1410.7692307692307" y="1519.9052132701422"/>
+            <point key="canvasLocation" x="1737" y="1520"/>
+        </scene>
+        <!--릴스-->
+        <scene sceneID="6mo-e9-Ja9">
+            <objects>
+                <viewController storyboardIdentifier="ReelsVC" id="YYo-G6-ysh" customClass="ReelsViewController" customModule="Catstagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l3f-w4-Gdt">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="GNf-55-EMu">
+                                <rect key="frame" x="0.0" y="44" width="390" height="717"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jVe-fr-2mZ">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sc4-Jr-qh2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sc4-Jr-qh2" firstAttribute="trailing" secondItem="GNf-55-EMu" secondAttribute="trailing" id="1DN-aG-sq6"/>
+                            <constraint firstItem="sc4-Jr-qh2" firstAttribute="bottom" secondItem="GNf-55-EMu" secondAttribute="bottom" id="2Wk-zF-c6V"/>
+                            <constraint firstItem="GNf-55-EMu" firstAttribute="top" secondItem="sc4-Jr-qh2" secondAttribute="top" id="6Eu-uW-tbj"/>
+                            <constraint firstItem="GNf-55-EMu" firstAttribute="leading" secondItem="sc4-Jr-qh2" secondAttribute="leading" id="DBy-Qg-FFR"/>
+                            <constraint firstItem="sc4-Jr-qh2" firstAttribute="bottom" secondItem="GNf-55-EMu" secondAttribute="bottom" id="G0C-te-jA7"/>
+                            <constraint firstItem="GNf-55-EMu" firstAttribute="top" secondItem="sc4-Jr-qh2" secondAttribute="top" id="XQu-LY-7cd"/>
+                            <constraint firstItem="GNf-55-EMu" firstAttribute="leading" secondItem="sc4-Jr-qh2" secondAttribute="leading" id="hdJ-HO-GsC"/>
+                            <constraint firstItem="sc4-Jr-qh2" firstAttribute="trailing" secondItem="GNf-55-EMu" secondAttribute="trailing" id="pCj-Oj-KP2"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="릴스" id="2TX-OT-68t"/>
+                    <connections>
+                        <outlet property="collectionView" destination="GNf-55-EMu" id="1dM-g0-7C2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cKV-cC-T94" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="906" y="1520"/>
         </scene>
     </scenes>
     <resources>
