@@ -39,6 +39,9 @@
 		108142B7282D316B00761EA1 /* UserFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108142B6282D316B00761EA1 /* UserFeedModel.swift */; };
 		108142B9282D36AD00761EA1 /* UserFeedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108142B8282D36AD00761EA1 /* UserFeedDataManager.swift */; };
 		108142BE283104CF00761EA1 /* DeleteUserFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108142BD283104CF00761EA1 /* DeleteUserFeed.swift */; };
+		108142C02838CE9800761EA1 /* ReelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108142BF2838CE9800761EA1 /* ReelsViewController.swift */; };
+		10D8F34C28391F3E00B5735D /* ReelsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D8F34B28391F3E00B5735D /* ReelsCell.swift */; };
+		10D8F34E2839224D00B5735D /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D8F34D2839224D00B5735D /* VideoPlayerView.swift */; };
 		AC5EAC353C0EFA1DC5B26B7A /* Pods_Catstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68EC7AEFEA4E8780FF12C772 /* Pods_Catstagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +53,8 @@
 		100C82FB27DC9FF400836857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		100C82FE27DC9FF400836857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		100C830027DC9FF400836857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		106E778728391CBF00BE6377 /* dummyVideo01.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dummyVideo01.mp4; sourceTree = "<group>"; };
+		106E778828391CBF00BE6377 /* dummyVideo02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dummyVideo02.mp4; sourceTree = "<group>"; };
 		1080669927F1893C00EC66D3 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		1080669B27F22CDA00EC66D3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1080669D27F34A5100EC66D3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +82,9 @@
 		108142B6282D316B00761EA1 /* UserFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedModel.swift; sourceTree = "<group>"; };
 		108142B8282D36AD00761EA1 /* UserFeedDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedDataManager.swift; sourceTree = "<group>"; };
 		108142BD283104CF00761EA1 /* DeleteUserFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteUserFeed.swift; sourceTree = "<group>"; };
+		108142BF2838CE9800761EA1 /* ReelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsViewController.swift; sourceTree = "<group>"; };
+		10D8F34B28391F3E00B5735D /* ReelsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsCell.swift; sourceTree = "<group>"; };
+		10D8F34D2839224D00B5735D /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		68EC7AEFEA4E8780FF12C772 /* Pods_Catstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		707C36C341BD70B0F389FF56 /* Pods-Catstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catstagram.release.xcconfig"; path = "Target Support Files/Pods-Catstagram/Pods-Catstagram.release.xcconfig"; sourceTree = "<group>"; };
 		C835CDFC81554DF24A1DCF71 /* Pods-Catstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catstagram.debug.xcconfig"; path = "Target Support Files/Pods-Catstagram/Pods-Catstagram.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +126,9 @@
 				108142B2282C31DC00761EA1 /* App */,
 				108142B4282C32A700761EA1 /* UserInterface */,
 				100C82F827DC9FF200836857 /* Main.storyboard */,
+				108142BF2838CE9800761EA1 /* ReelsViewController.swift */,
+				10D8F34B28391F3E00B5735D /* ReelsCell.swift */,
+				10D8F34D2839224D00B5735D /* VideoPlayerView.swift */,
 				100C82FD27DC9FF400836857 /* LaunchScreen.storyboard */,
 				100C82FB27DC9FF400836857 /* Assets.xcassets */,
 				100C830027DC9FF400836857 /* Info.plist */,
@@ -125,6 +136,8 @@
 				108066A727F74AAC00EC66D3 /* UserInfo.swift */,
 				108066A127F4ACA700EC66D3 /* UIView+Extension.swift */,
 				108066A527F4BE5900EC66D3 /* UIViewController+Extension.swift */,
+				106E778728391CBF00BE6377 /* dummyVideo01.mp4 */,
+				106E778828391CBF00BE6377 /* dummyVideo02.mp4 */,
 			);
 			path = Catstagram;
 			sourceTree = "<group>";
@@ -412,16 +425,19 @@
 				1080673F28084F1E00EC66D3 /* StoryTableViewCell.swift in Sources */,
 				108067432809B23E00EC66D3 /* StoryCollectionViewCell.swift in Sources */,
 				108142A2281D65FF00761EA1 /* PostCollectionViewCell.swift in Sources */,
+				10D8F34C28391F3E00B5735D /* ReelsCell.swift in Sources */,
 				100C82F327DC9FF200836857 /* AppDelegate.swift in Sources */,
 				108066A827F74AAC00EC66D3 /* UserInfo.swift in Sources */,
 				1080671627FD8D3400EC66D3 /* HomeViewController.swift in Sources */,
 				108142B1282C20AD00761EA1 /* FeedUploadDataManager.swift in Sources */,
 				108066A627F4BE5900EC66D3 /* UIViewController+Extension.swift in Sources */,
+				108142C02838CE9800761EA1 /* ReelsViewController.swift in Sources */,
 				100C82F527DC9FF200836857 /* SceneDelegate.swift in Sources */,
 				108142A6282BCC5100761EA1 /* FeedAPIInput.swift in Sources */,
 				1081429A281D482000761EA1 /* ProfileCollectionViewCell.swift in Sources */,
 				10806747281C639800EC66D3 /* ProfileViewController.swift in Sources */,
 				108142AA282BCCFE00761EA1 /* FeedDataManager.swift in Sources */,
+				10D8F34E2839224D00B5735D /* VideoPlayerView.swift in Sources */,
 				108142BE283104CF00761EA1 /* DeleteUserFeed.swift in Sources */,
 				1080669A27F1893D00EC66D3 /* UIColor+Extension.swift in Sources */,
 				1080673B27FEA23600EC66D3 /* FeedTableViewCell.swift in Sources */,
