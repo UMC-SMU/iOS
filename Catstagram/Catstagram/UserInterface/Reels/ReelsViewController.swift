@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import SnapKit
 
 class ReelsViewController: UIViewController{
     
@@ -21,8 +20,6 @@ class ReelsViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         setupCollectionView()
-        
-        // Do any additional setup after loading the view.
     }
     //MARK: - Action
     
@@ -82,7 +79,7 @@ extension ReelsViewController : UICollectionViewDelegate,UICollectionViewDataSou
 
 //MARK: UICollectionViewFlowLayout
 extension ReelsViewController : UICollectionViewDelegateFlowLayout{
-    private func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewFlowLayout, sizeForItemAt indexPath: IndexPath) ->CGSize {
+    internal func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) ->CGSize {
         return CGSize(
             width: collectionView.frame.width,
             height: collectionView.frame.height)

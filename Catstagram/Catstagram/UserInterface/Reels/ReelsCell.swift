@@ -53,7 +53,7 @@ class ReelsCell: UICollectionViewCell{
         [cameraImageView, shareImageVIew, likeImageView, commentImageView].forEach{
             $0.contentMode = .scaleAspectFit
             $0.tintColor = .white
-        }//각 ??ImageView.contentMode = .scaleAspectFit를 자동화
+        }//각 ImageView.contentMode = .scaleAspectFit를 자동화
         cameraImageView.image = UIImage(systemName: "camera")
         shareImageVIew.image = UIImage(systemName: "paperplane")
         commentImageView.image = UIImage(systemName: "message")
