@@ -24,8 +24,6 @@ class PostCollectionViewCell: UICollectionViewCell {
         if let url = URL(string: imageURLStr){
             postImageView.kf.setImage(with: url, placeholder: UIImage(systemName: "photo")) //setImage에서 다른 변수들 사용 안함
         }
-        
-
     }
 
 }

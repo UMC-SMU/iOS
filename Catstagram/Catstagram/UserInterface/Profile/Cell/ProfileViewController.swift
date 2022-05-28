@@ -15,6 +15,9 @@ class ProfileViewController: UIViewController, UIGestureRecognizerDelegate {
     var userPosts: [GetUserPosts]?{ //UI를 먼저 그린 후 데이터를 받아오고 있기 때문에 relaoadData()를 해주어야 함
         didSet{ self.profileCollectionView.reloadData() }
     }
+    var userInfo: GetUserInfo?{ // 본인 추가 코드
+        didSet{ self.profileCollectionView.reloadData() }
+    }
     
     var deletedIndex :Int?
     
@@ -108,6 +111,10 @@ extension ProfileViewController: UICollectionViewDelegate, UICollectionViewDataS
                     fatalError("셀 타입 캐스팅 실패...")
                 }
             
+            if let cellData2 = self.userInfo {
+                cell.setupData(cellData2.profileImgUrl)
+            }
+            
             return cell
         default: // Post
             guard let cell = collectionView.dequeueReusableCell(
@@ -116,12 +123,12 @@ extension ProfileViewController: UICollectionViewDelegate, UICollectionViewDataS
                     fatalError("셀 타입 캐스팅 실패...")
                 }
             let itemIndex = indexPath.item
-            if let cellData = self.userPosts { // 만약 userposts 값이 있어서 할당이 가능하다면
+            
+            if let cellData = self.userPosts {
+                // 만약 userposts 값이 있어서 할당이 가능하다면
                 //데이터가 있는 경우, cell 데이터를 전달
                 cell.setupData(cellData[itemIndex].postImgUrl)// <-- 데이터 전달
             }
-             
-            
             return cell
         }
     }
@@ -175,7 +182,8 @@ extension ProfileViewController: UICollectionViewDelegateFlowLayout {
 
 extension ProfileViewController{
     func successFeedAPI(_ result: UserFeedModel){
-        self.userPosts = result.result?.getuserPosts
+        self.userPosts = result.result?.getUserPosts
+        self.userInfo = result.result?.getUserInfo //본인 추가 작성 코드
     }
     
     func successDeletePostAPI(_ isSuccess: Bool){
