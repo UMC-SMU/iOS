@@ -12,7 +12,7 @@ class UserFeedDataManager {
     //학습을 위한 서버라서 2번 아이디에만 데이터를 넣어놓음 -> 그래서 userID를 아예 2번으로 고정
     func getUserFeed(_ viewController : ProfileViewController, _ userID : Int = 2){
         //통신
-        AF.request("https://edu-api-ios-test.softsquared.com/users/\(userID)", method: .get, parameters: nil ).validate().responseDecodable(of: UserFeedModel.self){response in
+        AF.request("https://edu-api-ios-test.softsquared.com/users/\(userID)", method: .get, parameters: nil ).validate().responseDecodable(of: UserFeedModel.self){ response in
             switch response.result {
             case .success(let result):
                 viewController.successFeedAPI(result)

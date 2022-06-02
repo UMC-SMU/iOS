@@ -52,9 +52,13 @@ class LoginViewController: UIViewController {
             && userInfo.password == self.password {
             let vc = storyboard?.instantiateViewController(withIdentifier: "TabBarVC") as! UITabBarController
             vc.modalPresentationStyle = .fullScreen
-            self.present(vc, animated: true, completion: nil)
+            //self.present(vc, animated: true, completion: nil) //마지막 강의에서 수정 -> present는 뒤에 viewController가 남아있기 때문에 쓸데 없이 메모리를 잡아 먹음.
             
-        } else {
+            
+            //LoginViewController의 view객체에서 window 객체의 windowScene에 가서 key로 사용되는 window
+            //windowScene이란? -> viewController와 겹쳐있는 가장 초기 Layer
+            //windowScenen의 뿌리가 되는 rootViewController를 vc로 교체
+            self.view.window?.windowScene?.keyWindow?.rootViewController = vc
             
         }
     }

@@ -17,9 +17,9 @@ struct UserFeedModel : Decodable {
 }
 
 struct UserFeedModelResult: Decodable{
-    let isMyFeed: Bool?
-    let userInfo: GetUserInfo? //구조체 변수
-    let getuserPosts: [GetUserPosts]? //배열 선언
+    let _isMyFeed: Bool?
+    let getUserInfo: GetUserInfo? //구조체 변수
+    let getUserPosts: [GetUserPosts]? //배열 선언
 }
     
 struct GetUserInfo : Decodable{
@@ -30,7 +30,7 @@ struct GetUserInfo : Decodable{
     let website: String?
     let introduction: String?
     let followerCount:Int?
-    let followeeCount:Int?
+    let followingCount:Int?
     let postCount: Int?
 }
 
