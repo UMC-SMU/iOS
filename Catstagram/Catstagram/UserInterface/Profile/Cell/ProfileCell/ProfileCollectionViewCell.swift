@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ProfileCollectionViewCell: UICollectionViewCell {
     static let identifier = "ProfileCollectionViewCell"
@@ -48,6 +49,14 @@ class ProfileCollectionViewCell: UICollectionViewCell {
         [postingCountLabel, followerCountLabel, followingCountLabel]
             .forEach { $0.text = "\(Int.random(in: 0...10))"}
     }
-
+    
+    public func setupData(_ imageURLStr: String?) { //본인 추가 코드
+        // 이미지뷰의 이미지를 업로드한다.
+        
+        guard let imageURLStr = imageURLStr else { return }
+        if let url = URL(string: imageURLStr){
+            profileImageView.kf.setImage(with: url, placeholder: UIImage(systemName: "photo")) //setImage에서 다른 변수들 사용 안함
+        }
+    }
     
 }
