@@ -173,8 +173,7 @@ extension ProfileViewController: UICollectionViewDelegateFlowLayout {
 // MARK: - API 통신 메소드
 extension ProfileViewController {
     func successFeedAPI(_ result: UserFeedModel) {
-        self.userPosts = result.result.getUserPosts
-        //self.userPosts = result.result?.getUserPosts // 이와 같이 옵셔널 설정시 오류 발생
+        self.userPosts = result.result?.getUserPosts
     }
     
     func successDeletePostAPI(_ isSucess: Bool) {

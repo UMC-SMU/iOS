@@ -49,11 +49,19 @@ class LoginViewController: UIViewController {
         // 회원가입정보를 전달받아서, 그것과 textField 데이터가 일치하면,
         // 로그인이 되어야 한다.
         guard let userInfo = self.userInfo else { return }
+        
         if userInfo.email == self.email
             && userInfo.password == self.password {
+            
+            // 화면 전환
+            let vc = storyboard?.instantiateViewController(withIdentifier: "TabBarVC") as! UITabBarController
+            self.view.window?.windowScene?.keyWindow?.rootViewController = vc
+
+            /*
             let vc = storyboard?.instantiateViewController(withIdentifier: "TabBarVC") as! UITabBarController
             vc.modalPresentationStyle = .fullScreen
             self.present(vc, animated: true, completion: nil)
+             */
             
         } else {
             
@@ -69,7 +77,7 @@ class LoginViewController: UIViewController {
         let registerViewController = storyboard.instantiateViewController(withIdentifier: "RegisterVC") as! RegisterViewController
         
         // 3. 화면전환 메소드를 이용해서 화면을 전환
-//        self.present(registerViewController, animated: true, completion: nil)
+        //self.present(registerViewController, animated: true, completion: nil)
         self.navigationController?.pushViewController(registerViewController, animated: true)
         
         // ARC -> 강한참조 / 약한참조(weak self) -> ARC 낮춰줌

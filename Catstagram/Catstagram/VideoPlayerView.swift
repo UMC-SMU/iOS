@@ -19,7 +19,7 @@ class VideoPlayerView: UIView {
         self.urlStr = urlStr
         super.init(frame: frame)
         
-        let videoFileURL = Bundle.main.url(forResource: urlStr, withExtension: "mp4")! 
+        let videoFileURL = Bundle.main.url(forResource: urlStr, withExtension: "mp4")!
         let playItem = AVPlayerItem(url: videoFileURL)
         
         self.queuePlayer = AVQueuePlayer(playerItem: playItem)

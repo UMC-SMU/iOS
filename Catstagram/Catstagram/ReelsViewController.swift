@@ -9,7 +9,6 @@ import UIKit
 
 class ReelsViewController: UIViewController {
     // MARK: - Properties
-    
     @IBOutlet weak var collectionView: UICollectionView!
     private var nowPage = 0
     
@@ -22,7 +21,6 @@ class ReelsViewController: UIViewController {
     }
 
     // MARK: - Actions
-    
     
     
     // MARK: - Helpers
