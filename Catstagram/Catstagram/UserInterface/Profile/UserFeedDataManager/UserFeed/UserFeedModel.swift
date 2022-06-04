@@ -11,7 +11,7 @@ struct UserFeedModel: Decodable {
         let isSuccess: Bool?
         let code: Int?
         let message: String?
-        let result: UserFeedModelResult
+        let result: UserFeedModelResult?
 }
 
 struct UserFeedModelResult: Decodable {

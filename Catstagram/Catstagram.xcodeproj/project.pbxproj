@@ -12,6 +12,8 @@
 		100C82FA27DC9FF200836857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100C82F827DC9FF200836857 /* Main.storyboard */; };
 		100C82FC27DC9FF400836857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100C82FB27DC9FF400836857 /* Assets.xcassets */; };
 		100C82FF27DC9FF400836857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100C82FD27DC9FF400836857 /* LaunchScreen.storyboard */; };
+		1070925C283EB99D00955BF7 /* dummyVideo01.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 106E778728391CBF00BE6377 /* dummyVideo01.mp4 */; };
+		1070925D283EB9A200955BF7 /* dummyVideo02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 106E778828391CBF00BE6377 /* dummyVideo02.mp4 */; };
 		1080669A27F1893D00EC66D3 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080669927F1893C00EC66D3 /* UIColor+Extension.swift */; };
 		1080669C27F22CDA00EC66D3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080669B27F22CDA00EC66D3 /* LoginViewController.swift */; };
 		1080669E27F34A5100EC66D3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080669D27F34A5100EC66D3 /* RegisterViewController.swift */; };
@@ -354,6 +356,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1070925D283EB9A200955BF7 /* dummyVideo02.mp4 in Resources */,
+				1070925C283EB99D00955BF7 /* dummyVideo01.mp4 in Resources */,
 				108142A3281D65FF00761EA1 /* PostCollectionViewCell.xib in Resources */,
 				100C82FF27DC9FF400836857 /* LaunchScreen.storyboard in Resources */,
 				1080673C27FEA23600EC66D3 /* FeedTableViewCell.xib in Resources */,
