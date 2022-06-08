@@ -7,11 +7,10 @@
 </div>  
 
 ### 📝 스터디원 
-|이름|전공|
-|------|---|
-|[니니(김유빈)](https://github.com/ubeeni)|👩🏻‍🎓 SMU 휴먼지능정보공학전공 4학년|
-|[무너(문정호)](https://github.com/ILWAT)|🧑🏻‍🎓 SMU 컴퓨터과학전공 3학년|
-|[윶(박유주)](https://github.com/yuju-SMU)|👩🏻‍🎓 SMU 게임전공 3학년|
+|이름|깃허브|전공|
+|----|----|----|
+|니니(김유빈)|https://github.com/ubeeni|👩🏻‍🎓 SMU 휴먼지능정보공학전공 4학년|
+|무너(문정호)|https://github.com/ILWAT|🧑🏻‍🎓 SMU 컴퓨터과학전공 3학년|
 
 ### 💬 커리큘럼
 + **환경설정 및 언어소개**
